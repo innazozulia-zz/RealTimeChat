@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>RealTime Chat</title>
+</head>
+<body>
+  <div class="join-container">
+    <header class="join-header">
+      <h1><img src="img/monster.png" alt="pic" class="monster"> Roe  Chat</h1>
+    </header>
+    <main class="join-main">
+      <form action="chat.html">
+
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="Enter username..."required />
+        </div>
+
+        <div class="form-control">
+
+          <label for="room" class='room'>Room</label>
+          <select name="room" id="room">
+            <option value="Beauty">Beauty</option>  
+            <option value="Health">Health</option>  
+            <option value="Cooking">Cooking</option>
+            <option value="Shoping">Shoping</option> 
+            <option value="Family">Family</option> 
+            <option value="Children">Children</option>
+            <option value="Music">Music</option>
+            <option value="Photo">Photo</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Join Chat</button>
+      </form>
+    </main>
+  </div>   
+   <script src="main.js"></script>
+</body>
+</html>
